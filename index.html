@@ -4,31 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Password Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
-        <div class="form">
-                <form action="/action_page.php">
-                  <label for="name">Name</label>
-                  <input type="text" id="name" name="fullname" placeholder="John Smith">
-          
-                  <label for="email">Email</label>
-                  <input type="text" id="email" name="emailaddress" placeholder="example@gmail.com">
-          
-                  <label for="message">Message</label>
-                  <textarea id="subject" name="subject" style="height:200px"></textarea>
-          
-                  <input type="submit" value="Submit">
-                </form>
-              </div>
-    <div style="width:320px;margin:0 auto;text-align:center">
-		<button id="generate">Generate</button>
-		<input type="text" placeholder="Your password...">
-	</div>
+
+<header>Password Generator</header>
+
+    <div class = "main">
+
+
+        <h1>Generate a Password</h1>
+
+    <div class = style>
+            <input id="passwordBox" type="text" placeholder="Your Secure Password...">
+        <div class = flex>
+            <button id="generate">Generate Password</button>
+            <button onclick="myClipboard" id="clipboard">Copy to Clipboard</button>   
+        </div>
+    </div>
+
+    </div>
+
     <script src="script.js"></script>
- 
+
 </body>
 
 </html>

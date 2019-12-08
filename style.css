@@ -14,9 +14,27 @@ body {
     flex-direction: column;
   }
 
+header{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+}
+
+  .main {
+    background-color: #ffffff;
+    border-width: 2px;
+    border-color: #dddddd;
+    border-style: solid;
+    width: 900px;
+    margin: 35px auto;
+    height: 600px;
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: black;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 60px;
@@ -24,17 +42,63 @@ h1 {
     border-bottom: 4px solid #dddddd;
 }
 
-p{
-  margin-left:18px;
-  margin-right: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 30px;
-  font-size: 25%S;
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 15px;
 }
 
 
 
 
+button {
+    display: flex;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    border-radius: 20%;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {
+      background-color: darkred;
+    }
+  
+  button:active {
+    background-color: darkred;
+    box-shadow: 5px lightslategray;
+    transform: translateY(4px);
+  }
+
+.style {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 825px;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px dashed gray;
+    resize: horizontal;
+}
+
+#generate {
+    display: block;
+}
+
+#clipboard {
+    display: block;
+}
+
+#passwordBox {
+    height: 200px;
+    resize: vertical;
+    font-size: 20px;
+}
 
 /*contact form*/
 .form {
@@ -59,3 +123,5 @@ p{
     padding: 10px 20px;
     border: none;
   }
+
+  style="width:320px;margin:0 auto;text-align:center"
