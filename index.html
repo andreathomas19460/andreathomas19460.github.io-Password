@@ -2,13 +2,33 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     
-
+        <div class="form">
+                <form action="/action_page.php">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="fullname" placeholder="John Smith">
+          
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="emailaddress" placeholder="example@gmail.com">
+          
+                  <label for="message">Message</label>
+                  <textarea id="subject" name="subject" style="height:200px"></textarea>
+          
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+    <div style="width:320px;margin:0 auto;text-align:center">
+		<button id="generate">Generate</button>
+		<input type="text" placeholder="Your password...">
+	</div>
+    <script src="script.js"></script>
+ 
 </body>
 
 </html>
