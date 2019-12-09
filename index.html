@@ -9,21 +9,30 @@
 </head>
 
 <body>
+    <script type="text/javascript">
 
-<header>Password Generator</header>
+        var howManyChar = prompt('Hello! How many characters should your password be? Choose a length from 8-128.');
+        alert('The number of characters in your password will be ' + howManyChar)
 
-    <div class = "main">
+        var includeSpecial = confirm('Include special characters?');
+        var includeNums = confirm('Include numbers?');
+        var includeLower = confirm('Include lowercase letters?');
+        var includeUpper = confrim('Include uppercase letters?');
+    </script>
 
+    <header>Password Generator</header>
+
+    <div class="main">
 
         <h1>Generate a Password</h1>
 
-    <div class = style>
+        <div class=style>
             <input id="passwordBox" type="text" placeholder="Your Secure Password...">
-        <div class = flex>
-            <button id="generate">Generate Password</button>
-            <button onclick="myClipboard" id="clipboard">Copy to Clipboard</button>   
+            <div class=flex>
+                <button id="generate">Generate Password</button>
+                <button onclick="myClipboard" id="clipboard">Copy to Clipboard</button>
+            </div>
         </div>
-    </div>
 
     </div>
 
