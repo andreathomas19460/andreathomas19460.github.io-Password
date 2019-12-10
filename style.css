@@ -1,46 +1,35 @@
-
-
 body {
-    background-image: url("assets/positive.png");
-    height: 100%;
-    background-color: rgb(240, 244, 245);
-    background-image: url("assets/topography.png");
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    margin: 0;
-  }
-
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-
+  background-image: url("assets/email-pattern.png");
+  display: flex;
+  flex-direction: column
+}
+  
 header{
-    padding-top: 50px;
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    color: black;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
 }
 
-  .main {
-    background-color: #ffffff;
-    border-width: 2px;
-    border-color: #dddddd;
-    border-style: solid;
-    width: 900px;
-    margin: 35px auto;
-    height: 600px;
+.main {
+  background-image: url("assets/criss-cross.png");
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  width: 900px;
+  margin: 35px auto;
+  height: 600px;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 60px;
-    padding-bottom: 30px;
-    border-bottom: 4px solid #dddddd;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  border-bottom: 4px solid #dddddd;
 }
 
 .flex{
@@ -54,75 +43,75 @@ h1 {
 
 
 button {
-    display: flex;
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    color: #fff;
-    background-color: red;
-    border-radius: 20%;
-    box-shadow: 0 9px #999;
-  }
+  display: flex;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: red;
+  border-radius: 20%;
+  box-shadow: 0 9px #999;
+}
   
   button:hover {
-      background-color: darkred;
-    }
-  
-  button:active {
     background-color: darkred;
-    box-shadow: 5px lightslategray;
-    transform: translateY(4px);
   }
+  
+button:active {
+  background-color: darkred;
+  box-shadow: 5px lightslategray;
+  transform: translateY(4px);
+}
 
 .style {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 825px;
-    padding: 15px;
-    text-align: center;
-    box-sizing: border-box;
-    border: 2px dashed gray;
-    resize: horizontal;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 825px;
+  padding: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px dashed gray;
+  resize: horizontal;
 }
 
 #generate {
-    display: block;
+  display: block;
 }
 
 #clipboard {
-    display: block;
+  display: block;
 }
 
 #passwordBox {
-    height: 200px;
-    resize: vertical;
-    font-size: 20px;
+  height: 200px;
+  resize: vertical;
+  font-size: 20px;
 }
 
 /*contact form*/
 .form {
-    margin:10px;
-    padding: 10px;
-  }
+  margin:10px;
+  padding: 10px;
+}
   
   
-  input[type=text], textarea {
-    width: 100%; 
-    padding: 15px;  
-    border: 1px solid #cccccc; 
-    box-sizing: border-box; 
-    margin-top: 8px; 
-    margin-bottom: 30px; 
-    resize: vertical 
-  }
+input[type=text], textarea {
+  width: 100%; 
+  padding: 15px;  
+  border: 1px solid #cccccc; 
+  box-sizing: border-box; 
+  margin-top: 8px; 
+  margin-bottom: 30px; 
+  resize: vertical 
+}
   
-  input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-  }
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
 
-  style="width:320px;margin:0 auto;text-align:center"
+ 
