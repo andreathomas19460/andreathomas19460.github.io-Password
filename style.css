@@ -1,6 +1,7 @@
 
 
 body {
+    background-image: url("assets/positive.png");
     height: 100%;
     background-color: rgb(240, 244, 245);
     background-image: url("assets/topography.png");
