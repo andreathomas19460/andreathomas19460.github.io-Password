@@ -2,41 +2,31 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset='UTF-8'>
     <title>Password Generator</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
 </head>
 
-<body>
-    <script type="text/javascript">
-
-        var howManyChar = prompt('Hello! How many characters should your password be? Choose a length from 8-128.');
-        alert('The number of characters in your password will be ' + howManyChar)
-
-        var includeSpecial = confirm('Include special characters?');
-        var includeNums = confirm('Include numbers?');
-        var includeLower = confirm('Include lowercase letters?');
-        var includeUpper = confrim('Include uppercase letters?');
-    </script>
+<body onload='getPrefs()'>
 
     <header>Password Generator</header>
 
-    <div class="main">
+    <div class='main'>
 
         <h1>Generate a Password</h1>
 
-        <div class=style>
-            <input id="passwordBox" type="text" placeholder="Your Secure Password...">
+        <div class='style'>
+            <input id='passwordBox' type='text' placeholder='Your Secure Password...'>
             <div class=flex>
-                <button id="generate">Generate Password</button>
-                <button onclick="myClipboard" id="clipboard">Copy to Clipboard</button>
+                <button type='input' onclick='generate()' id='generate'>Generate Password</button>
+                <button type='input' onclick='myClipboard()' id='clipboard'>Copy to Clipboard</button>
             </div>
         </div>
 
     </div>
 
-    <script src="script.js"></script>
+    <script src='script.js'></script>
 
 </body>
 
