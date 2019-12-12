@@ -5,6 +5,7 @@ var specialChar = '!"#$%&\'()*+,-./:;<=>?@^[\\]^_`{|}~';
 
 var howManyChar;
 var includeSpecial;
+var includeNums;
 var includeLower;
 var includeUpper;
 
@@ -49,16 +50,17 @@ function generate() {
     var password = '';
     for (var i = 0; i < howManyChar; i++) {
         password += charSet.charAt(getRandomInt(0, charSet.length));
-    // var charSet = Math.floor(Math.random() * all.length);
-    // password += shuffle.charAt(Math.floor(Math.random() * shuffle.length));
     }
-    document.getElementById("passwordBox").value = password;
+    document.getElementById("passwordBox").value = password
 }
 
 function myClipboard() {
-    var myClipboard = document.getElementById("passwordBox");
-    myClipboard.select();
-    myClipboard.setSelectionRange(0, 99999); 
+    var copyText = document.querySelector("#passwordBox");
+    copyText.select();
     document.execCommand("copy");
-    alert("Copied Password: " + copyClipboard);
-}
+    alert("Copied to Clipboard");
+  }
+  
+
+
+
